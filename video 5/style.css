@@ -1,0 +1,87 @@
+          /* Poore screen ke bich mein laane ke liye (Optional) */
+body{
+    background-color: rgb(8, 58, 93);
+}
+img {
+    display: block;       /* Text se alag karke ek block banao */
+    margin-left: auto;    /* Left se dhakka do */
+    margin-right: auto;   /* Right se dhakka do */
+    width: 50%;           /* Image ki width set karo taaki jagah bache */
+}
+
+.main-heading{
+    text-align: center;
+    color: aliceblue;
+}
+
+.hero-image{
+     width: 500px;
+     display: block;
+     margin: 0 auto;
+
+}
+
+.intro-box{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 60%;
+    font-family:'Poppins',sans-serif;
+
+}
+
+.section-heading{
+
+    color: white;
+    font-family: 'Playfair Display',serif;
+}
+
+.section-text{
+
+    color: black;
+    font-family: 'Poppins',sans-serif;
+}
+
+.top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: aqua;
+    border: none;
+    border-radius: 5px;
+}
+
+.toggle-btn {
+    display: block;
+    margin:10px auto 10px 20px;  /* left side */
+    padding: 8px 20px;
+    cursor: pointer;
+    background: aqua;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body.dark {
+    background-color: #1c1e26;
+}
+
+body.dark .section-text {
+    color: aliceblue;
+}
+
+body.dark .section-heading {
+    color: white;
+}
+
+body.dark .intro-box {
+    background-color: #2b2b3e;
+    color: white;
+}
+
+body.dark .main-heading {
+    color: aliceblue;
+}
