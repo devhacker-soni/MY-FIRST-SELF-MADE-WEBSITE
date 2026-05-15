@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+.design{
+    text-align: center;
+    display: block;
+    color: white;
+    display: block;
+}
+
+.image{
+    width: 100%;
+    max-width: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto 20px auto;
+    height: auto;
+    display: block;
+    
+
+}
+
+.card{
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 15px;
+    max-width: 600px;
+    min-height: 600px;
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    line-height: 1.6;
+}
+
+.footer{
+
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+    margin: 25px;
+}
