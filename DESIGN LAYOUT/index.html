@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESIGN LAYOUT</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav >
+        <ul class="navbar">
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+        </ul>
+    </nav>
+
+    <div class="imagecont">
+        <img src="photo 3.jpg" alt="FIRST IMAGE">
+        <img src="photo_2.jpg" alt="SECOND IMAGE">
+
+    </div>
+    <article>
+        <h1>WELCOME TO SIGMA WEB DEVELOPMENT COURSE😁🚀</h1>
+    </article>
+
+    <div class="design">
+        <h2 style="color: beige; text-align: center;"> 1. FLEXBOX TRICK (Images ko side-by-side lagana)</h2>
+    </div>
+
+    <main class="design">
+        <dl  style="color: beige;">
+            <li>Maine kya kiya: Jab mujhe do images ko ek doosre ke bagal mein (side-by-side) set karna tha, toh maine unhe ek parent container div mein dala aur CSS mein display: flex; ka use kiya.</li>
+            <li>Mera logic: Isse mujhe purane zamane ke gande float ya inline-block hacks nahi use karne pade. Maine gap property se dono ke beech space diya aur images ki width: 45%; rakh kar layout ko ekdum responsive aur safe bana diya.</li>
+        </dl>
+    </main>
+
+    <div class="design">
+        <h2 style="color: beige; text-align: center;">2. POSITION STICKY (Navbar ko upar chipkana)</h2>
+    </div>
+
+    <main class="design">
+    
+        <dl style="color: beige;">
+            <li>Maine kya kiya: Maine apne multicolor navigation bar par position: sticky; top: 0; apply kiya.</li>
+            <li>Mera logic: Isse mera navbar pehle toh normal content ki tarah behave karta hai, lekin jaise hi main page ko niche scroll karti hoon aur navbar screen ke sabse upar (top: 0) pahunchta hai, wo wahi par freeze ho jata hai. Baaki ka poora content uske peeche se smoothly nikalta rehta hai. Maine z-index: 100; bhi lagaya taaki navbar hamesha baaki content ke upar chamakta rahe.</li>
+        </dl>
+    </main>
+
+    <div class="design">
+        <h2 style="color: beige; text-align: center;">3. POSITION FIXED (Logo ko corner par float karwana)</h2>
+    </div>
+    <main class="design">
+        <dl style="color: beige;">
+            <li>Maine kya kiya: Ek floating logo ya button ko screen ke right-side bottom corner par hamesha ke liye chipkane ke liye maine position: fixed; ka use kiya.</li>
+            <li>Mera logic: sticky ke ulti, fixed element ko page ke baaki content se koi matlab nahi hota, wo seedha laptop ya mobile ki visible screen (viewport) par lock ho jata hai. Maine use bottom: 20px; aur right: 20px; ka offset diya, jisse main chahe jitna bhi lamba scroll karoon, mera logo apni jagah se ek inch bhi nahi hilta aur ekdum professional "floating" look deta hai.</li>
+        </dl>
+    </main>
+
+
+    <footer>
+        <p>&copy;Soni Singh | Bsc IT Student | Aspiring Full Stack Developer &amp; Ethical Hacker.</p>
+    </footer>
+
+    
+
+    <div class="floating-logo">
+        <img src="my logo.jpeg" alt="MY LOGO">
+    </div>
+    
+</body>
+</html>
