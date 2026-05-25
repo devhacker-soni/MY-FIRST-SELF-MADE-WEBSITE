@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TRANSFORM</title>
+    <style>
+
+
+        .container{
+            border: 5px solid darkmagenta;
+            height: 500px;
+            width: 700px;
+            display: flex;
+            gap: 50px;
+            perspective: 1000px;
+        }
+
+        .box{
+            background-color: lightpink;
+            border: 5px solid darkred;
+            height: 50px;
+            width: 50px;
+            text-align: center;
+        }
+
+        .box1{
+            transform: rotate(100deg); /*rotate*/
+        }
+
+        .box2{
+            transform: scale(1.7); /*scale*/
+        }
+
+        .box3{
+            transform: translateY(40px); /*translate*/
+        }
+
+        .box4{
+            transform: translateX(60px);
+        }
+
+        .box5{
+            transform: translateZ(-200px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main class="box box1">box1</main>
+        <main class="box box2">box2</main>
+        <main class="box box3">box3</main>
+        <main class="box box4">box4</main>
+        <main class="box box5">box5</main>
+    </div>
+</body>
+</html>
